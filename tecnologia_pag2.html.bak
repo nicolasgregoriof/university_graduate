@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title> Tecnologia da Informação - Tabela empresas top 10 </title>
+		<meta name="author" content="Nicolas Figueiredo">
+		<meta charset=”utf-8”>
+	</head>
+	
+	<body>
+	    
+		<header>
+			<h1>Tecnologia da Informação - Top 10</h1>
+	    </header><hr>
+		
+		<nav>
+			<a href=tecnologia_home.html>Home</a>
+			<a href=tecnologia_pag1.html>Mercado</a>
+			<a href=tecnologia_fale.html>Fale conosco</a>
+			<a href=tecnologia_pag2.html>Top 10 Empresas</a>
+		</nav><hr>
+		
+		<table border = "2px" width="25%">
+			<thead> <!-- CABEÇALHO -->
+				<colgroup>
+					<col span="1" bgcolor="gray">
+					<col bgcolor="yellow">
+				</colgroup>
+			
+				<tr> <!-- linha -->	<th colspan="2"> Tabela com as top 10 empresas </th> </tr>  
+			</thead>
+			
+			<tbody> <!-- CORPO -->
+				<tr> 
+				  <td>EMPRESA</td> <!-- coluna -->	
+				  <td>LOGO</td> </tr>
+				
+				<tr> <td rowspan="2">Apple</td>
+					 <td><img src=apple.png width="50" height="50" align="left" alt="apple"></td> </tr>
+				<tr> 
+					 <td><img src=apple2.png width="50" height="50" align="left" alt="apple2"></td> </tr>	
+				<tr> <td>Samsung</td>
+					 <td><img src=samsung.png width="50" height="50" align="left" alt="samsung"></td> </tr>
+				<tr> <td>Tencent</td>
+					 <td><img src=tencent.png width="50" height="50" align="left" alt="tecent"></td> </tr>	
+				<tr> <td>Meta</td>
+					 <td><img src=meta.png width="50" height="50" align="left" alt="meta"></td> </tr>	
+				<tr> <td>Intel</td>
+					 <td><img src=intel.png width="50" height="50" align="left" alt="intel"></td> </tr>
+				<tr> <td>Taiwan</td>
+					 <td><img src=taiwan.png width="50" height="50" align="left" alt="taiwan"></td> </tr>
+				<tr> <td>Cisco</td>
+					 <td><img src=cisco.png width="50" height="50" align="left" alt="cisco"></td> </tr>	
+				<tr> <td>IBM</td>
+					 <td><img src=ibm.png width="50" height="50" align="left" alt="ibm"></td> </tr>	
+				<tr> <td>Microsoft</td>
+					 <td><img src=microsoft.png width="50" height="50" align="left" alt="microsof"></td> </tr>						 
+			</tbody>
+			
+			<tfoot> <!-- RODAPÉ -->
+				<tr> <td colspan="2">EMPRESAS TOP 10 TECNOLOGIA</td> </tr>
+			</tfoot>
+		</table>
+		
+		
+		
+		<footer>
+			Trabalho acadêmico - Fundamentos Web
+		</footer>
+		
+	</body>
+	
+</html>

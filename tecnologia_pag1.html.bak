@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title> Tecnologia da Informação - Mercado </title>
+		<meta name="author" content="Nicolas Figueiredo">
+		<meta charset=”utf-8”>
+		<link rel="stylesheet" type="text/css" href="tecnologia.css">
+	</head>
+	
+	<body>
+	    
+		<header>
+			<h1>Tecnologia da Informação - Mercado</h1>
+	    </header><hr>
+		
+		<nav>
+			<a href=tecnologia_home.html>Home</a>
+			<a href=tecnologia_pag1.html>Mercado</a>
+			<a href=tecnologia_fale.html>Fale conosco</a>
+			<a href=tecnologia_pag2.html>Top 10 Empresas</a>
+		</nav><hr>
+		
+		<article >
+			<p>
+   		       <h2 id="salto_do_titulo">Atual cenário do mercado de TI</h2>
+			   
+			   <div id="entre_paragrafos">
+			   Um dos melhores cenários no atual momento do mercado de trabalho é na área da Tecnologia da Informação (TI). 
+			   Com um leque abrangente de funções, os profissionais estão sendo tão assediados pelas empresas que estão em 
+			   um patamar bem diferente em relação às demais profissões.
+			   </div>
+
+               <div id="entre_blocos">
+			   De acordo com pesquisa da FEEx – FIA Employee Experience, os colaboradores do segmento recebem 84% mais convites 
+			   para participar de processo seletivo em outra organização. Ou seja, estão sempre sendo almejados, 
+			   o que influencia na valorização. A pesquisa revela que os principais motivos de entrada dos profissionais de TI
+			   nas empresas são identificação com a proposta de atividades do cargo (+73% acima da média do mercado), 
+			   oportunidades de aprendizado (+56% acima da média do mercado) e alinhamento com os valores da empresa 
+			   (+44% acima da média do mercado). Ainda quando o assunto é motivação, o estudo aponta que os motivos de permanência
+			   na empresa são, principalmente, por três fatores: oportunidades de aprendizado, 
+			   flexibilidade no trabalho e crescimento profissional.
+               </div>			   
+			</p>
+		</article>
+		
+		<section>
+		    <p>
+				<h2 id="salto_do_titulo">Dica do Elon Musk</h2>
+				<video width="640" height="360" controls>
+				<source src="video.mp4" type="video/mp4">
+				</video>
+			</p>
+		</section>
+		
+		<aside align="right">
+			<cite>As pessoas trabalham melhor quando sabem qual é o objetivo e o porquê. 
+			É importante que as pessoas estejam ansiosas para vir trabalhar de manhã e gostem de trabalhar. <br> Elon Musk</cite>
+		</aside>
+		
+		<footer>
+			Trabalho acadêmico - Fundamentos Web
+		</footer>
+	</body>
+</html>
+
