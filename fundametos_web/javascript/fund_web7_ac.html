@@ -1,0 +1,62 @@
+<!-- 
+O objetivo deste script é criar um array que deve armazenar informações de três times de seus esportes preferidos, 
+exibindo essas informações na página. As informações que devem compor os elementos da lista são:
+
+Tipo de modalidade do time. Por exemplo: Basquete, Futebol, Vôlei.
+Nome do time. Por exemplo: Lakers, São Paulo, Nestlé.
+A quantidade de jogadores do time. Por exemplo: 6, 12, 6.
+Cor predominante do time. Por exemplo: dourado, vermelho, azul.
+
+Mostrar na página web:
+
+1 - O array (com todas as informações).
+2 - Escolha uma cor predominante (if) e mostre:
+✔ a modalidade;
+✔ o time;
+✔ a quantidade de jogadores;
+✔ a imagem do Brasão.
+-->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> FUND_WEB7 - Aplicando conhecimento</title>
+        <meta name="author" content="Nicolas Figueiredo">
+		<meta name="description" content="Trabalho acadêmico">
+        <meta charset=”utf-8”>
+        <link rel="stylesheet" type="text/css" href="fund_web7_ac.css">
+        <script src="fund_web7_ac.js"></script>
+    </head>
+    <body>
+        
+        <header>
+            <h1>FUND_WEB7 - Aplicando conhecimento</h1>
+        </header>
+
+        <nav></nav>
+        
+        <div id="array">
+            <script>
+                body(); 
+            </script>
+        </div>
+        
+        <div id="'form">
+            <form name="cortime">
+                <br><br>
+                Escoha a cor
+                <br><br>
+                Azul:         <input type=radio name=cor value="a" onclick="display(0)"><br>
+                Azul marinho: <input type=radio name=cor value="b" onclick="display(1)"><br>
+                Azul escuro:  <input type=radio name=cor value="c" onclick="display(2)"><br>
+            </form>
+        </div>
+
+        <div id ="in_here"></div>
+
+        <footer>
+            <div></div>
+        </footer>
+    </body>
+</html>
